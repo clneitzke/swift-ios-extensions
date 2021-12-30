@@ -11,7 +11,7 @@ import UIKit
 var vSpinner : UIView?
  
 @available(iOS 13.0, *)
-extension UIViewController {
+public extension UIViewController {
     
     func showSpinner() {
         

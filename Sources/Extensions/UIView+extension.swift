@@ -11,7 +11,7 @@ import UIKit
 
 
 // MARK: - UIView Anchor
-extension UIView {
+public extension UIView {
             
     func anchor(top: NSLayoutYAxisAnchor? = nil,
                 left: NSLayoutXAxisAnchor? = nil,

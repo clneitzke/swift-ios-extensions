@@ -12,7 +12,7 @@ import Foundation
 import UIKit
 
 // MARK: - Add HEX to init
-extension UIColor {
+public extension UIColor {
     
     static let mainBlue = UIColor.rgb(red: 0, green: 150, blue: 255)
     
