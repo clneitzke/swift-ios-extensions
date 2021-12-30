@@ -1,3 +1,3 @@
 # Extensions
 
-A description of this package.
+SPM with a collection of extension for general use.
