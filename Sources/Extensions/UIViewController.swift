@@ -1,6 +1,6 @@
 //
-//  UIView+spinner.swift
-//  PopularWhispers
+//  UIView.swift
+//  Extensions
 //
 //  Created by clneitzke on 19/12/21.
 //

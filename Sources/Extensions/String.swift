@@ -1,8 +1,8 @@
 //
-//  String+trim.swift
-//  BSGPushNote
+//  String.swift
+//  Extensions
 //
-//  Created by Cleber Neitzke on 10/01/22.
+//  Created by clneitzke on 10/01/22.
 //
 
 import Foundation

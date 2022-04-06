@@ -1,8 +1,8 @@
 //
-//  UIView+extension.swift
-//  person-datacore
+//  UIView.swift
+//  Extensions
 //
-//  Created by Cleber Neitzke on 02/03/21.
+//  Created by clneitzke on 02/03/21.
 //
 
 
