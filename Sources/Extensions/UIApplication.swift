@@ -5,6 +5,7 @@
 //  Created by clneitzke on 10/01/22.
 //
 
+#if os(iOS)
 import UIKit
 
 public extension UIApplication{
@@ -18,3 +19,4 @@ public extension UIApplication{
         return presentViewController
     }
 }
+#endif

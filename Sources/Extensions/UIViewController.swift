@@ -5,6 +5,7 @@
 //  Created by clneitzke on 19/12/21.
 //
 
+#if os(iOS)
 import UIKit
 
 // Global
@@ -40,3 +41,4 @@ public extension UIViewController {
         }
     }
 }
+#endif

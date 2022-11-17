@@ -5,7 +5,7 @@
 //  Created by clneitzke on 02/03/21.
 //
 
-
+#if os(iOS)
 import Foundation
 import UIKit
 
@@ -62,3 +62,4 @@ public extension UIView {
 
     }
 }
+#endif

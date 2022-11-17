@@ -1,5 +1,5 @@
 import XCTest
-@testable import Extensions
+@testable import swift_ios_extensions
 
 final class ExtensionsTests: XCTestCase {
     func testExample() throws {
