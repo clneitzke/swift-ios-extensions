@@ -6,7 +6,7 @@
 //
 // For UnitTest
 
-public struct Extensions {
+public struct ExtensionPackage {
     public private(set) var text = "Hello, World!"
     public init() { }
 }

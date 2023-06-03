@@ -1,11 +1,11 @@
 import XCTest
-@testable import swift_ios_extensions
+@testable import MyExtensionPackage
 
-final class ExtensionsTests: XCTestCase {
+final class MyExtensionPackage: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(Extensions().text, "Hello, World!")
+        XCTAssertEqual(ExtensionPackage().text, "Hello, World!")
     }
 }

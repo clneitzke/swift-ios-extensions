@@ -2,17 +2,7 @@
 
 SPM with a collection of extension for general use.
 
-
-## Data Sctucture
-- LinkedList
-- Queue
-- Stack
-- Rescursion
-- Tree
-- BinaryTree
-- BinarySearch
-- Sorting Algorithms
-- Graph
+import ClExtensions
 
 ## Extensions
 
