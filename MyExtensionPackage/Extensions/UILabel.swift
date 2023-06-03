@@ -10,7 +10,7 @@
 import UIKit
 
 // MARK: - UILabel Shadow
-extension UILabel {
+public extension UILabel {
     func shadow() {
         self.layer.shadowColor = self.textColor.cgColor
         self.layer.shadowOffset = CGSize.zero

@@ -9,7 +9,7 @@
 import Foundation
 
 // MARK: - Float Format
-extension Float {
+public extension Float {
     func format(f: String) -> String {
         return String(format: "%\(f)f", self)
     }

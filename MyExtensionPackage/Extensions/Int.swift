@@ -9,7 +9,7 @@
 import Foundation
 
 // MARK: - Int Format
-extension Int {
+public extension Int {
     func format(f: String) -> String {
         return String(format: "%\(f)d", self)
     }
