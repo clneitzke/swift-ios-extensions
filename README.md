@@ -2,7 +2,12 @@
 
 SPM with a collection of extension for general use.
 
-import ClExtensions
+
+## Usage
+
+import MyExtensionPackage
+
+
 
 ## Extensions
 
@@ -10,19 +15,25 @@ import ClExtensions
 - trim()
 - condenseWhitespace()
 
-
 ### UIApplication
 - getPresentedViewController()
-
 
 ### UIColor
 - init?(hex: String)
 
-
 ### UIView
-- anchor((top: NSLayoutYAxisAnchor? = nil, left: NSLayoutXAxisAnchor? = nil, bottom: NSLayoutYAxisAnchor? = nil, right: NSLayoutXAxisAnchor? = nil,
-                paddingTop: CGFloat? = 0, paddingLeft: CGFloat? = 0, paddingBottom: CGFloat? = 0, paddingRight: CGFloat? = 0,
-                width: CGFloat? = nil, height: CGFloat? = nil )
+- anchor(   
+    top: NSLayoutYAxisAnchor? = nil, 
+    left: NSLayoutXAxisAnchor? = nil, 
+    bottom: NSLayoutYAxisAnchor? = nil, 
+    right: NSLayoutXAxisAnchor? = nil,
+    paddingTop: CGFloat? = 0, 
+    paddingLeft: CGFloat? = 0, 
+    paddingBottom: CGFloat? = 0, 
+    paddingRight: CGFloat? = 0,
+    width: CGFloat? = nil, 
+    height: CGFloat? = nil 
+)
 
 
 ### UIViewController
