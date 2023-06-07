@@ -35,6 +35,8 @@ import MyExtensionPackage
     height: CGFloat? = nil 
 )
 
+- applyGradient(isVertical: Bool, colorArray: [UIColor])
+- showBorder(UIColor)
 
 ### UIViewController
 - showSpinner()
