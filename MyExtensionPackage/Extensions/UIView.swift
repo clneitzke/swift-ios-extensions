@@ -84,7 +84,7 @@ public extension UIView {
     }
     
     func showBorder(size: Int = 1, color: UIColor = .red) {
-        layer.borderWidth = size
+        layer.borderWidth = CGFloat(size)
         layer.borderColor = color.cgColor
     }
     
