@@ -83,10 +83,10 @@ public extension UIView {
         layer.insertSublayer(gradientLayer, at: 0)
     }
     
-    func showBorder(size: int = 1, color: UIColor = .red) {
+    func showBorder(size: Int = 1, color: UIColor = .red) {
         layer.borderWidth = size
         layer.borderColor = color.cgColor
     }
-
+    
 }
 #endif
